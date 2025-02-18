@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<header>
+   
+      
+    <div class="container-fluid top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left: Social Icons -->
+                <div class="col-md-6 d-flex social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <!-- Right: Contact Info -->
+                <div class="col-md-6 text-md-end contact-info">
+                    <i class="fas fa-envelope"></i> adventureinfo@example.com
+                    <i class="fas fa-map-marker-alt"></i> 775 Rolling Green Rd.
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--  -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <span class="logo-black">ADVENTURE</span> <span class="logo-yellow">PARK</span>
+        </a>
+
+        <!-- Navbar Links -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  d-flex justify-content-evenly w-100">
+                <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ACTIVITIES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+            </ul>
+        </div>
+
+        <!-- Icons & Quote Button -->
+        <div class="search-cart-icons">
+            <a href="#"><i class="fas fa-search" style="color: #000000;"></i></a>
+            <div class="cart-icon">
+                <a href="#"><i class="fas fa-shopping-cart" style="color: #000000"></i></a>
+                <span class="badge">1</span>
+            </div>
+            <a href="#" class="quote-btn">Get Free Quote</a>
+        </div>
+    </div>
+</nav>
+
+<!--  -->
+<!-- Section 3 Hero Image -->
+ 
+<div class="cover-container d-flex w-100  align-items-end p-5 mx-auto ">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+  
+    <main class="px-3">
+            <p class="lead">DISCOVER A WHOLE NEW WORLD OF FUN.</p>
+      <h1>WELCOME TO<br>
+        ADVENTURE PARK</h1>
+        <button class="button btn rounded-pill px-3" type="button">Discover More</button>
+     
+    </main>
+</div>
+        </div>
+  </div>
+    
+  </div>
+<!-- ** -->
+  <!-- Section 4 Activities -->
+<div class="container-fluid Activities">
+  <div class="container py-5">
+    <p class="section-title">Activities & Facilities</p>
+    <div class="underline"></div>
+    <h1 class="main-heading">Adventure Awaits You <span class="highlight">At Adventure Park</span></h1>
+
+    <div class="row mt-4">
+        <div class="col-md-2 col-sm-4 col-6 ">
+            <div class="Facilities_card p-3">
+                <div class="icon text-center">🐟</div>
+                <p>Fresh Pond & Sea Fish</p>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 ">
+            <div class="Facilities_card p-3">
+                <div class="icon ">🥦</div>
+                <p>Fresh Organic Farm Vegetable</p>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6  ">
+            <div class="Facilities_card p-3">
+                <div class="icon ">🏍️</div>
+                <p>ATV Riding</p>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 ">
+            <div class="Facilities_card p-3">
+                <div class="icon ">🏕️</div>
+                <p>Camping And Born-Fire</p>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 ">
+            <div class="Facilities_card p-3">
+                <div class="icon ">⛰️</div>
+                <p>Trekking And Mountain Climbing</p>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 ">
+            <div class="Facilities_card p-3">
+                <div class="icon ">🎈</div>
+                <p>Activities And Adventure</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--  -->
+<!--Section 5 About Us  -->
+<div class="container-fluid">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <!-- Images on the left -->
+            <div class="col-md-6 d-flex  align-items-end">
+                <div class="">
+                    <img src="https://plus.unsplash.com/premium_photo-1683133789516-3bd68efe607f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200" class=" About_Us_Image img-fluid rounded shadow" alt="Small Image">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1594942939850-d8da299577f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWR2ZW50dXJlJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D" width="300" class=" About_Us_Image Large-Image img-fluid rounded shadow mx-3" alt="Large Image">
+                </div>
+            </div>
+
+            <!-- Text content on the right -->
+            <div class="col-md-6">
+                <p class="section-title">About Us</p>
+                <h1 class="main-heading">The Best Theme And <span class="highlight">Adventure Park</span></h1>
+                <p class="border_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</p>
+                <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button btn  rounded-pill px-3" type="button">Learn More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ** -->
+<!-- Section 6 Accomodations -->
+<div class="container-fluid Accommodation_Section">
+      <div class="container py-5">
+        <!-- Heading -->
+        <div class="heading">
+            <h3>Accommodation We Offer</h3>
+            <h2>Best Staycation With Our <span>Premium Facilities</span></h2>
+        </div>
+    
+        <!-- Suite Cards -->
+        <div class="row justify-content-center mt-5">
+            <!-- Suite 1 -->
+            <div class="col-md-4 position-relative">
+                <div class="suite-card">
+                    <div class="info badge-box">
+                        <div class="text-success ">Sunrise Cozy</div>
+                        <h5>Haven Suite For Evening Stay</h5>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1729201955990-eb0dd97f50a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWR2ZW50dXJlJTIwcGFyayUyMGhvdGVsfGVufDB8fDB8fHww" alt="suite_1">
+                   
+                </div>
+                <div class="Explore-Button"> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+    
+            <!-- Suite 2 -->
+            <div class="col-md-4 position-relative">
+                <div class="suite-card">
+                    <div class="info badge-box" style="background-color: #ffd54f;">
+                        <div class=" ">Premium Deluxe</div>
+                        <h5>Suite For Night Stay</h5>
+                    </div>
+                    <img src="https://plus.unsplash.com/premium_photo-1685305380695-90e58a33d4e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlJTIwcGFyayUyMGhvdGVsfGVufDB8fDB8fHww" alt="suite_2">
+                    
+                </div>
+                <div class="Explore-Button"> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+    
+            <!-- Suite 3 -->
+            <div class="col-md-4 position-relative">
+                <div class="suite-card">
+                      <div class="info badge-box">
+                        <div class="text-success ">Supreme Deluxe</div>
+                        <h5>Suite Thailand Style</h5>
+                    </div>
+                    <img src="https://plus.unsplash.com/premium_photo-1663090574444-e9275e4ed35a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWR2ZW50dXJlJTIwcGFyayUyMGhvdGVsfGVufDB8fDB8fHww" alt="Suite 3">
+                  
+                </div>
+                <div class="Explore-Button"> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+    
+        <!-- View All Button -->
+        <div class="view-all">
+            <button class="button">View All</button>
+        </div>
+    </div>
+</div>
+<!--  -->
+<!-- Section 6 Special Events -->
+<div class="container text-center mt-4">
+    <h6 class="text-uppercase">Special Events</h6>
+    <h2>Leave Your Worries</h2>
+    <h3 style="color: #1a7f3a;">Behind and Chill</h3>
+</div>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        
+        <!-- Event 1 -->
+        <div class="col-lg-12 w-100">
+            <div class="event-card">
+                <div class="event-date">July 08, 2020</div>
+                <img src="https://images.unsplash.com/photo-1592809633737-175b65fd2b82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFkdmVudHVyZSUyMGFjdGl2aXRpZXN8ZW58MHx8MHx8fDA%3D" alt="Event Image">
+                <div class="event-details">
+                    <div class="event-title">Early Morning Safari</div>
+                    <div class="event-time-cost">
+                        <b>Time:</b> 05:00 - 08:00 &nbsp; | &nbsp; <b>Cost:</b> $500
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="p-3">
+                    <a href="#" class="btn btn-custom">More Info</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-lg-8 w-100">
+            <div class="event-card">
+                <div class="event-date">July 10, 2020</div>
+                <img src="https://plus.unsplash.com/premium_photo-1663089712223-bbf8954bfe33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGFyYWdsaWRpbmd8ZW58MHx8MHx8fDA%3D" alt="Event Image">
+                <div class="event-details">
+                    <div class="event-title">Rope Path In Air</div>
+                    <div class="event-time-cost">
+                        <b>Time:</b> 10:00 - 05:00 &nbsp; | &nbsp; <b>Cost:</b> $100
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="p-3 ">
+                    <a href="#" class="btn btn-custom">More Info</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-lg-8 w-100">
+            <div class="event-card">
+                <div class="event-date">July 10, 2020</div>
+                <img src="https://plus.unsplash.com/premium_photo-1661960937960-1883bf00f480?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFkdmVudHVyZSUyMGFjdGl2aXRpZXN8ZW58MHx8MHx8fDA%3D" alt="Event Image">
+                <div class="event-details">
+                    <div class="event-title">ATV Riding</div>
+                    <div class="event-time-cost">
+                        <b>Time:</b> 10:00 - 05:00 &nbsp; | &nbsp; <b>Cost:</b> $280
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="p-3">
+                    <a href="#" class="btn btn-custom">More Info</a>
+                </div>
+            </div>
+        </div>
+
+       
+
+    </div>
+     <!-- View All Button -->
+     <div class="view-all py-3">
+     <button class="button w-10" >View All Button</button>
+     </div>
+</div>          
+<!-- ** -->
+<!--  -->
+<div class="container-fluid camping-content px-0 py-0">
+    <div class="row camping-section ">
+        <!-- Right Image Section -->
+ <div class="col-lg-6 Camping_image-container">
+<div class="">
+    <a href="#" class="play-button">
+        <div class="play-icon">
+            <i class="bi bi-play-fill" style="color: #ffffff;"></i>
+        </div>
+        Take A Tour
+    </a>
+</div>
+ </div>
+        <!-- Left Form Section -->
+        <div class="col-md-4 p-5 camping-content ">
+            <div class="">
+            <h3 class="pt-5">Our Benefits</h3>
+            <h1>Spend Your <span>Holidays With</span> Your Family</h1>
+            <p>
+                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            
+            <div class="progress-container">
+                <div class="progress-box">
+                    <div class="progress-circle">90%</div>
+                    <span>Organic Vegetables</span>
+                </div>
+                <div class="progress-box">
+                    <div class="progress-circle">50%</div>
+                    <span>Fresh Fruits</span>
+                </div>
+            </div>
+
+           
+        </div>
+    </div> </div>
+          
+</div>
+<!-- <section class="camping-section">
+    <div class="container-fluid px-0">
+    
+        <div class="row align-items-center">
+            <!-- Left Side - Image -->
+            <!-- <div class="col-md-6 background_Image" >
+                <img src="https://plus.unsplash.com/premium_photo-1661960937960-1883bf00f480?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFkdmVudHVyZSUyMGFjdGl2aXRpZXN8ZW58MHx8MHx8fDA%3D" class="img-fluid rounded" alt="Camping Tent">
+            </div> -->
+
+            <!-- Right Side - Text Content -->
+            <!-- <div class="col-md-6 camping-content">
+                <h3>Our Benefits</h3>
+                <h1>Spend Your <span>Holidays With</span> Your Family</h1>
+                <p>
+                    Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                
+                <div class="progress-container">
+                    <div class="progress-box">
+                        <div class="progress-circle">90%</div>
+                        <span>Organic Vegetables</span>
+                    </div>
+                    <div class="progress-box">
+                        <div class="progress-circle">50%</div>
+                        <span>Fresh Fruits</span>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    -->
+ </div>
+</section>
+
+<!--  -->
+<!--  -->
+<section class=" py-5 ">
+    <div class="container-fluid">
+        <div class="container">
+    <h2 class="text-center">Book Now</h2>
+    <h1 class="text-center">Ticket <span class="highlight_Green ">Packages</span></h1>
+
+    <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+            <div class="price_package_card">
+                <h3 class="fw-semibold highlight_Green">Standard Day Ticket</h3>
+                <p class="price highlight_Green">$50 <span>/ person</span></p>
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button">Book Now</button>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="price_package_card ">
+                <h3 class="fw-semibold highlight_Green">Premium Day Ticket</h3>
+                <p class="price highlight_Green">$90 <span>/ person</span></p>
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button">Book Now</button>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="price_package_card ">
+                <h3 class="fw-semibold highlight_Green">Week Stay Plan</h3>
+                <p class="price highlight_Green">$120 <span>/ person</span></p>
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="view-all py-3">
+        <button class="button w-10" >View All Button</button>
+        </div>
+    </div>
+    </div>
+</section> -->
+<!--  -->
+<!--  -->
+<section>
+<div class="container section py-5">
+    <div class="row align-items-center">
+        <!-- Left Image -->
+        <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1739611216855-eb0991c76d51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" class="img-fluid rounded" alt="Campfire">
+        </div>
+        <!-- Right Content -->
+        <div class="col-lg-6">
+            <h5 class="text-uppercase fw-bold">Why Choose Us?</h5>
+            <div class="divider"></div>
+            <h2>Adventure Awaits Beyond</h2>
+            <h3 class="highlight_Green fw-bold">Your Doorstep</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <!-- Features -->
+            <div class="row gy-3">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="icon-container ">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="px-2">Restaurant Service With Fresh Farm Food</div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="icon-container">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="px-2">24 hr Security And Trustworthy Staff</div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="icon-container">
+                        <i class="fas fa-campground"></i>
+                    </div>
+                    <div class="px-2">Night Stay In Tent With Bonfire And Music</div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="icon-container">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="px-2">24 hr Security And Trustworthy Staff</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--  -->
+<!-- Owl Carausal Section -->
+ <div class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+           <div class="col text-center">
+            <div class="preheader">
+                Latest From
+            </div>
+            <div class="divider mx-auto"></div>
+            <h2>OUR <span class="highlight_Green">GALLERY</span></h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4><img class="item" src="https://plus.unsplash.com/premium_photo-1708304263970-b2651af9b573?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://images.unsplash.com/photo-1588060721176-a0ccfb71a258?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFkdmVudHVyZSUyMHBhcmt8ZW58MHx8MHx8fDA%3D"  alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1142642249/photo/grandfather-and-grandson-amusement-park-fun.webp?a=1&b=1&s=612x612&w=0&k=20&c=psz-uQTtxBYKoXtxB-ZO5htNbBk4FzNeFCY8nSPJW8s=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1479350260/photo/clever-girl.webp?a=1&b=1&s=612x612&w=0&k=20&c=XSgFaI3Q8JIGUAdn-K8MvYz4k9idbFyulU2GEcgIK6A=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1366799799/photo/a-young-woman-and-her-boyfriend-with-their-backs-are-staring-at-the-carousel.jpg?s=612x612&w=0&k=20&c=4aw3GammvsFntd05fkEmgDvH83xcb7iNErRKVrk6VsM=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1036052912/photo/pacific-park-santa-monica-california-usa.jpg?s=612x612&w=0&k=20&c=bi04HnwNggJpToeTchbMoVnkk_8vyryVnld8lNcDKxU=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1405261531/photo/beautiful-young-woman-enjoys-in-a-fair.jpg?s=612x612&w=0&k=20&c=JQSZGbkicXFp7AfMz9AAMcX8GYeePSHHsnaLPHFYlQk=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1759599327/photo/cheerful-female-friends-eating-cotton-candy-and-enjoying-in-fair.jpg?s=612x612&w=0&k=20&c=lSJirSJZ3kB_-NsJ2Su069P5FQxhNMkhSg3CeaH9V-Y=" alt=""></h4></div>
+                <div class="item"><h4><img class="item" src="https://media.istockphoto.com/id/1051006012/photo/happy-family-having-fun-in-an-amusement-park.jpg?s=612x612&w=0&k=20&c=pa2CKxzp6OUeCPX9wD38el2E5THEJ6F5edYKGl6twvM=" alt=""></h4></div>
+               
+            </div>
+              
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+              <script>
+                $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+        </script>
+           </div>
+        </div>
+    </div>
+ </div>
+ <!-- ** -->
+  <!--  -->
+ <div class="container-fluid px-0">
+    <div class="row booking-section">
+        <!-- Left Form Section -->
+        <div class="col-lg-6 d-flex align-items-center form-container">
+            <div class="w-100">
+                <h5>Booking</h5>
+                <h2>Book Us <span class="highlight">Instantly</span></h2>
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="tel" class="form-control" placeholder="Mobile Number">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="number" class="form-control" placeholder="Number Of Guest">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <select class="form-select">
+                                <option selected>Select Type Of Suite</option>
+                                <option>Standard</option>
+                                <option>Deluxe</option>
+                                <option>Luxury</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Specifications">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Request Something"></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-book">Book Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+ <!-- Right Image Section -->
+ <div class="col-lg-6 image-container"></div>
+</div>
+</div>
+<!--  -->
+<!--  -->
+<div class="container-fluid">
+    <div class="container">
+    <div class="row my-5">
+        <h5 class="text-center text-uppercase fw-bold">Frequently Asked</h5>
+        <div class="divider mx-auto"></div>
+        <h2 class="text-center my-4">Most Popular <span class="highlight-text">Questions</span></h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button py-3 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button py-3 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Additional Questions -->
+             
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3 " type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3 " type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?
+                            </button>
+                        </h2>
+                        <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+        <div class="col"></div>
+    </div>
+    </div>
+</div>
+
+
+<!--  -->
+<!--  -->
+ <div class="container-fluid testimonial-section">
+  <div class="container ">
+    <div class="row align-items-center">
+        <!-- Left Side - Testimonial -->
+        <div class="col-md-6">
+            <div class="testimonial-box">
+                <p class="text-uppercase">Our Testimonials</p>
+                <h2>WHAT THEY'RE <span class="highlight">TALKING?</span></h2>
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
+                <p class="author">Jenny Wilson</p>
+                <p>Co-Founder</p>
+                <div class="profile-images d-flex">
+                    <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="">
+                    <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side - Stats -->
+        <div class="col-md-6">
+            <div class="stats-box">
+                <i class="fas fa-bed"></i>
+                <div>
+                    <h3>30+</h3>
+                    <p>Cozy Rooms</p>
+                </div>
+            </div>
+            <div class="stats-box">
+                <i class="fas fa-calendar-alt"></i>
+                <div>
+                    <h3>20+</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+            <div class="stats-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>654+</h3>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ <!--  -->
+<!--  -->
+ 
+
+
+<!--  -->
+<!-- Blog Section -->
+ <div class="container-fluid">
+<div class="container blog-section">
+    <p class="text-uppercase">Our Blogs</p>
+    <h2>News And <span class="highlight_Green ">Articles</span></h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="custom-card">
+                <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWR2ZW50dXJlfGVufDB8fDB8fHww" alt="Blog Image">
+                <div class="custom-card-body">
+                    <p class="text-muted">May 12, 2018</p>
+                    <h5>Relaxation At Swimming Pool With Your Partner</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   
+                </div>
+                <div class="custom-card-footer d-flex justify-space-between">
+                    <button class="button">READ MORE</button>
+                    <p>👤 John Doe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="custom-card">
+                <img src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFkdmVudHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Blog Image">
+                <div class="custom-card-body">
+                    <p class="text-muted">Aug 20, 2020</p>
+                    <h5>Best Month And Places For Hiking</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                </div>
+                <div class="custom-card-footer d-flex justify-space-between">
+                    <button class="button">READ MORE</button>
+                    <p>👤 John Doe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="custom-card">
+                <img src="https://plus.unsplash.com/premium_photo-1686836993098-46f9ddbcaf86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFkdmVudHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Blog Image">
+                <div class="custom-card-body">
+                    <p class="text-muted">Feb 14, 2015</p>
+                    <h5>Boating In Thai Village</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   
+                </div>
+                <div class="custom-card-footer d-flex justify-space-between">
+                    <button class="button">READ MORE</button>
+                    <p>👤 John Doe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row contact-section  text-center  my-5">
+        <!-- Address -->
+        <div class="col-md-4 d-flex justify-content-md-start justify-content-center">
+            <div class="contact-box">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Location Icon">
+                </div>
+                <div class="text">
+                    <h4>ADDRESS:</h4>
+                    <p>5919 Trussville Crossings Pkwy, Birmingham</p>
+                </div>
+            </div>
+        </div>
+        <!-- Email -->
+        <div class="col-md-4 d-flex justify-content-md-start justify-content-center">
+            <div class="contact-box">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon">
+                </div>
+                <div class="text">
+                    <h4>EMAIL:</h4>
+                    <p>info@adventurepark.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Phone -->
+        <div class="col-md-4 d-flex justify-content-md-start justify-content-center">
+            <div class="contact-box">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3059/3059529.png" alt="Phone Icon">
+                </div>
+                <div class="text">
+                    <h4>PHONE:</h4>
+                    <p>+123 34598768</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            
+</div>
+</div>
+
+
+<!-- Footer Section -->
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <!-- Logo and Subscription -->
+            <div class="col-md-3">
+                <h5>ADVENTURE <span style="color: #f4c518;">PARK</span></h5>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Your Email">
+                    <button>GO</button>
+                </div>
+                <div class="social-icons mt-3">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="col-md-3">
+                <h5 class="highlight">Navigations</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Meet Our Team</a></li>
+                    <li><a href="#">News & Media</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Explore Links & Recent Posts -->
+            <div class="col-md-3">
+                <h5 class="highlight">Explore Link</h5>
+                <ul>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                
+            </div>
+<div class="col-md-3">
+            <h5 class="highlight mt-3">Recent Posts</h5>
+                <div class="d-flex align-items-center">
+                    <img src="https://media.istockphoto.com/id/2164234896/photo/nam-song-river-at-sunset-with-hot-air-balloon-in-vang-vieng-laos-beautiful-vang-vieng-laos.webp?a=1&b=1&s=612x612&w=0&k=20&c=OR2jUmyZqkE5zdOEQoiHfKQmWXRPzDc1rsKg8j4RG3I=" class="Footer_Images" width="100" alt="Recent Post">
+                    <div>
+                        <p class="mb-0" style="font-size: 13px; color: #f4c518;">12 Sep, 2022</p>
+                        <p class="mb-0" style="font-size: 14px;">Meant widow equal an</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                    <img src="https://media.istockphoto.com/id/2168642221/photo/enjoying-a-peaceful-moment-a-woman-sits-on-a-rocky-ledge-while-gazing-at-the-stunning.webp?a=1&b=1&s=612x612&w=0&k=20&c=F3Jpjjyw-HLxWGWiLtDFbTIp3gal_S8kcyHL-TGoJTg=" class="Footer_Images" width="100" alt="Recent Post">
+                    <div>
+                        <p class="mb-0" style="font-size: 13px; color: #f4c518;">18 Jul, 2022</p>
+                        <p class="mb-0" style="font-size: 14px;">Future Plan & Strategy for Construction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"
+></script>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+crossorigin="anonymous"
+></script>
+</body>
+</html>
